@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		608F64F91CFDF8AC00C1DFAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608F64F81CFDF8AC00C1DFAE /* AppDelegate.swift */; };
+		608F64FB1CFDF8AC00C1DFAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608F64FA1CFDF8AC00C1DFAE /* ViewController.swift */; };
+		608F64FE1CFDF8AC00C1DFAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 608F64FC1CFDF8AC00C1DFAE /* Main.storyboard */; };
+		608F65001CFDF8AC00C1DFAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 608F64FF1CFDF8AC00C1DFAE /* Assets.xcassets */; };
+		608F65031CFDF8AC00C1DFAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 608F65011CFDF8AC00C1DFAE /* LaunchScreen.storyboard */; };
+		608F650E1CFDF8AC00C1DFAE /* CertisLankaCCTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608F650D1CFDF8AC00C1DFAE /* CertisLankaCCTVTests.swift */; };
+		608F65191CFDF8AD00C1DFAE /* CertisLankaCCTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608F65181CFDF8AD00C1DFAE /* CertisLankaCCTVUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		608F650A1CFDF8AC00C1DFAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 608F64ED1CFDF8AC00C1DFAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 608F64F41CFDF8AC00C1DFAE;
+			remoteInfo = CertisLankaCCTV;
+		};
+		608F65151CFDF8AC00C1DFAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 608F64ED1CFDF8AC00C1DFAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 608F64F41CFDF8AC00C1DFAE;
+			remoteInfo = CertisLankaCCTV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		608F64F51CFDF8AC00C1DFAE /* CertisLankaCCTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CertisLankaCCTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		608F64F81CFDF8AC00C1DFAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		608F64FA1CFDF8AC00C1DFAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		608F64FD1CFDF8AC00C1DFAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		608F64FF1CFDF8AC00C1DFAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		608F65021CFDF8AC00C1DFAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		608F65041CFDF8AC00C1DFAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		608F65091CFDF8AC00C1DFAE /* CertisLankaCCTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CertisLankaCCTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		608F650D1CFDF8AC00C1DFAE /* CertisLankaCCTVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertisLankaCCTVTests.swift; sourceTree = "<group>"; };
+		608F650F1CFDF8AC00C1DFAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		608F65141CFDF8AC00C1DFAE /* CertisLankaCCTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CertisLankaCCTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		608F65181CFDF8AD00C1DFAE /* CertisLankaCCTVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertisLankaCCTVUITests.swift; sourceTree = "<group>"; };
+		608F651A1CFDF8AD00C1DFAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		608F64F21CFDF8AC00C1DFAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		608F65061CFDF8AC00C1DFAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		608F65111CFDF8AC00C1DFAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		608F64EC1CFDF8AC00C1DFAE = {
+			isa = PBXGroup;
+			children = (
+				608F64F71CFDF8AC00C1DFAE /* CertisLankaCCTV */,
+				608F650C1CFDF8AC00C1DFAE /* CertisLankaCCTVTests */,
+				608F65171CFDF8AC00C1DFAE /* CertisLankaCCTVUITests */,
+				608F64F61CFDF8AC00C1DFAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		608F64F61CFDF8AC00C1DFAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				608F64F51CFDF8AC00C1DFAE /* CertisLankaCCTV.app */,
+				608F65091CFDF8AC00C1DFAE /* CertisLankaCCTVTests.xctest */,
+				608F65141CFDF8AC00C1DFAE /* CertisLankaCCTVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		608F64F71CFDF8AC00C1DFAE /* CertisLankaCCTV */ = {
+			isa = PBXGroup;
+			children = (
+				608F64F81CFDF8AC00C1DFAE /* AppDelegate.swift */,
+				608F64FA1CFDF8AC00C1DFAE /* ViewController.swift */,
+				608F64FC1CFDF8AC00C1DFAE /* Main.storyboard */,
+				608F64FF1CFDF8AC00C1DFAE /* Assets.xcassets */,
+				608F65011CFDF8AC00C1DFAE /* LaunchScreen.storyboard */,
+				608F65041CFDF8AC00C1DFAE /* Info.plist */,
+			);
+			path = CertisLankaCCTV;
+			sourceTree = "<group>";
+		};
+		608F650C1CFDF8AC00C1DFAE /* CertisLankaCCTVTests */ = {
+			isa = PBXGroup;
+			children = (
+				608F650D1CFDF8AC00C1DFAE /* CertisLankaCCTVTests.swift */,
+				608F650F1CFDF8AC00C1DFAE /* Info.plist */,
+			);
+			path = CertisLankaCCTVTests;
+			sourceTree = "<group>";
+		};
+		608F65171CFDF8AC00C1DFAE /* CertisLankaCCTVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				608F65181CFDF8AD00C1DFAE /* CertisLankaCCTVUITests.swift */,
+				608F651A1CFDF8AD00C1DFAE /* Info.plist */,
+			);
+			path = CertisLankaCCTVUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		608F64F41CFDF8AC00C1DFAE /* CertisLankaCCTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 608F651D1CFDF8AD00C1DFAE /* Build configuration list for PBXNativeTarget "CertisLankaCCTV" */;
+			buildPhases = (
+				608F64F11CFDF8AC00C1DFAE /* Sources */,
+				608F64F21CFDF8AC00C1DFAE /* Frameworks */,
+				608F64F31CFDF8AC00C1DFAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CertisLankaCCTV;
+			productName = CertisLankaCCTV;
+			productReference = 608F64F51CFDF8AC00C1DFAE /* CertisLankaCCTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		608F65081CFDF8AC00C1DFAE /* CertisLankaCCTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 608F65201CFDF8AD00C1DFAE /* Build configuration list for PBXNativeTarget "CertisLankaCCTVTests" */;
+			buildPhases = (
+				608F65051CFDF8AC00C1DFAE /* Sources */,
+				608F65061CFDF8AC00C1DFAE /* Frameworks */,
+				608F65071CFDF8AC00C1DFAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				608F650B1CFDF8AC00C1DFAE /* PBXTargetDependency */,
+			);
+			name = CertisLankaCCTVTests;
+			productName = CertisLankaCCTVTests;
+			productReference = 608F65091CFDF8AC00C1DFAE /* CertisLankaCCTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		608F65131CFDF8AC00C1DFAE /* CertisLankaCCTVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 608F65231CFDF8AD00C1DFAE /* Build configuration list for PBXNativeTarget "CertisLankaCCTVUITests" */;
+			buildPhases = (
+				608F65101CFDF8AC00C1DFAE /* Sources */,
+				608F65111CFDF8AC00C1DFAE /* Frameworks */,
+				608F65121CFDF8AC00C1DFAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				608F65161CFDF8AC00C1DFAE /* PBXTargetDependency */,
+			);
+			name = CertisLankaCCTVUITests;
+			productName = CertisLankaCCTVUITests;
+			productReference = 608F65141CFDF8AC00C1DFAE /* CertisLankaCCTVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		608F64ED1CFDF8AC00C1DFAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = mazzit;
+				TargetAttributes = {
+					608F64F41CFDF8AC00C1DFAE = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					608F65081CFDF8AC00C1DFAE = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 608F64F41CFDF8AC00C1DFAE;
+					};
+					608F65131CFDF8AC00C1DFAE = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 608F64F41CFDF8AC00C1DFAE;
+					};
+				};
+			};
+			buildConfigurationList = 608F64F01CFDF8AC00C1DFAE /* Build configuration list for PBXProject "CertisLankaCCTV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 608F64EC1CFDF8AC00C1DFAE;
+			productRefGroup = 608F64F61CFDF8AC00C1DFAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				608F64F41CFDF8AC00C1DFAE /* CertisLankaCCTV */,
+				608F65081CFDF8AC00C1DFAE /* CertisLankaCCTVTests */,
+				608F65131CFDF8AC00C1DFAE /* CertisLankaCCTVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		608F64F31CFDF8AC00C1DFAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				608F65031CFDF8AC00C1DFAE /* LaunchScreen.storyboard in Resources */,
+				608F65001CFDF8AC00C1DFAE /* Assets.xcassets in Resources */,
+				608F64FE1CFDF8AC00C1DFAE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		608F65071CFDF8AC00C1DFAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		608F65121CFDF8AC00C1DFAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		608F64F11CFDF8AC00C1DFAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				608F64FB1CFDF8AC00C1DFAE /* ViewController.swift in Sources */,
+				608F64F91CFDF8AC00C1DFAE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		608F65051CFDF8AC00C1DFAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				608F650E1CFDF8AC00C1DFAE /* CertisLankaCCTVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		608F65101CFDF8AC00C1DFAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				608F65191CFDF8AD00C1DFAE /* CertisLankaCCTVUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		608F650B1CFDF8AC00C1DFAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 608F64F41CFDF8AC00C1DFAE /* CertisLankaCCTV */;
+			targetProxy = 608F650A1CFDF8AC00C1DFAE /* PBXContainerItemProxy */;
+		};
+		608F65161CFDF8AC00C1DFAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 608F64F41CFDF8AC00C1DFAE /* CertisLankaCCTV */;
+			targetProxy = 608F65151CFDF8AC00C1DFAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		608F64FC1CFDF8AC00C1DFAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				608F64FD1CFDF8AC00C1DFAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		608F65011CFDF8AC00C1DFAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				608F65021CFDF8AC00C1DFAE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		608F651B1CFDF8AD00C1DFAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		608F651C1CFDF8AD00C1DFAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		608F651E1CFDF8AD00C1DFAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CertisLankaCCTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.solution.mazzit.certislankacctv.CertisLankaCCTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		608F651F1CFDF8AD00C1DFAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CertisLankaCCTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.solution.mazzit.certislankacctv.CertisLankaCCTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		608F65211CFDF8AD00C1DFAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CertisLankaCCTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.solution.mazzit.certislankacctv.CertisLankaCCTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CertisLankaCCTV.app/CertisLankaCCTV";
+			};
+			name = Debug;
+		};
+		608F65221CFDF8AD00C1DFAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CertisLankaCCTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.solution.mazzit.certislankacctv.CertisLankaCCTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CertisLankaCCTV.app/CertisLankaCCTV";
+			};
+			name = Release;
+		};
+		608F65241CFDF8AD00C1DFAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CertisLankaCCTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.solution.mazzit.certislankacctv.CertisLankaCCTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CertisLankaCCTV;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		608F65251CFDF8AD00C1DFAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CertisLankaCCTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.solution.mazzit.certislankacctv.CertisLankaCCTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CertisLankaCCTV;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		608F64F01CFDF8AC00C1DFAE /* Build configuration list for PBXProject "CertisLankaCCTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				608F651B1CFDF8AD00C1DFAE /* Debug */,
+				608F651C1CFDF8AD00C1DFAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		608F651D1CFDF8AD00C1DFAE /* Build configuration list for PBXNativeTarget "CertisLankaCCTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				608F651E1CFDF8AD00C1DFAE /* Debug */,
+				608F651F1CFDF8AD00C1DFAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		608F65201CFDF8AD00C1DFAE /* Build configuration list for PBXNativeTarget "CertisLankaCCTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				608F65211CFDF8AD00C1DFAE /* Debug */,
+				608F65221CFDF8AD00C1DFAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		608F65231CFDF8AD00C1DFAE /* Build configuration list for PBXNativeTarget "CertisLankaCCTVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				608F65241CFDF8AD00C1DFAE /* Debug */,
+				608F65251CFDF8AD00C1DFAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 608F64ED1CFDF8AC00C1DFAE /* Project object */;
+}
